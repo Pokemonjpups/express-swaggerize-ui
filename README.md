@@ -1,4 +1,4 @@
-This is a fork so I can remove some of the styling
+This is a fork so I can remove some of the styling and hopefully add some new features.
 
 ### express-swaggerize-ui
 express-swaggerize-ui is an node express middleware to show swagger-ui 3 for your local (or external) api.

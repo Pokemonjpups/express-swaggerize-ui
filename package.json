@@ -1,5 +1,5 @@
 {
-  "name": "express-swaggerize-ui",
+  "name": "express-swaggerize-ui-styled",
   "version": "1.1.0",
   "description": "Express middleware to display a swagger-ui 3 page",
   "main": "index.js",
@@ -7,12 +7,10 @@
     "index.js",
     "static"
   ],
-  "scripts": {
-    "jshint": "jshint --reporter node_modules/jshint-stylish index.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgroot/express-swaggerize-ui.git"
+    "url": "https://github.com/Pokemonjpups/express-swaggerize-ui.git"
   },
   "keywords": [
     "swagger-ui",
@@ -24,9 +22,9 @@
   "author": "pgroot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pgroot/express-swaggerize-ui/issues"
+    "url": "https://github.com/Pokemonjpups/express-swaggerize-ui/issues"
   },
-  "homepage": "https://github.com/pgroot/express-swaggerize-ui",
+  "homepage": "https://github.com/Pokemonjpups/express-swaggerize-ui",
   "dependencies": {
     "express": "^4.13.3"
   },
