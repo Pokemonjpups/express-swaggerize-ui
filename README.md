@@ -1,3 +1,5 @@
+This is a fork so I can remove some of the styling
+
 ### express-swaggerize-ui
 express-swaggerize-ui is an node express middleware to show swagger-ui 3 for your local (or external) api.
 
@@ -14,10 +16,10 @@ const express   = require('express');
 const app       = express();
 const swaggerUi = require('express-swaggerize-ui');
 
-app.use('/api-docs.json', function (req, res) {
+app.use('/docs.json', function (req, res) {
   res.json(require('./path/to/swaggerize/docs.json'));
 });
-app.use('/api-docs', swaggerUi());
+app.use('/docs', swaggerUi());
 
 app.listen(3000);
 
